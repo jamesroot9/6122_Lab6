@@ -1,0 +1,10 @@
+Here is how i am executing the program on pace ice:
+--------------------------------------
+module load gcc mvapich2
+
+mpic++ main.cpp -o main.out
+
+srun ./main.out -N [number of points] -P [integral type [1 or 2]]
+
+
+
